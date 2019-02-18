@@ -474,7 +474,7 @@ class App extends Component {
                 ).length,
                 color: "#26627f"
               }
-            ]}
+            ].filter(entry => entry.Sales > 0)}
           />
         </div>
         <div className="table">
